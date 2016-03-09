@@ -142,6 +142,9 @@ html.no_touch {
   label.select:not(.disabled):hover:after,
   .accordion_section h4 a:hover {
     color: $base-link-color-active;
+    @if global-variable-exists(base-font-family) {
+      font-family: $base-font-family;
+    }
   }
 
   .btn {

@@ -109,6 +109,9 @@
   textarea {
     background: $color-shade-dark;
     border: 1px solid $color-shade-light;
+    @if global-variable-exists(base-font-family) {
+      font-family: $base-font-family;
+    }
   }
 
   #menu_footer {

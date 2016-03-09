@@ -28,6 +28,9 @@
     textarea {
       background: lighten($color-red, 15%);
       border: 1px solid $color-red;
+      @if global-variable-exists(base-font-family) {
+        font-family: $base-font-family;
+      }
 
       &:focus {
         border-color: lighten($color-red, 15%);

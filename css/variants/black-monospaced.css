@@ -78,23 +78,23 @@
   input[type=file]:focus { outline: #e6e6e6 dotted thin; }
   input[type=radio]:focus, input[type=checkbox]:focus { outline: #e6e6e6 dotted thin; }
   select { background: #545454; }
-  select, textarea { border: 1px solid #000; color: #e6e6e6; }
+  select, textarea { border: 1px solid #000; color: #e6e6e6; font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
   select:active, select:focus, textarea:active, textarea:focus { border-color: #363636; box-shadow: 0 0 7px rgba(130, 130, 130, 0.15); }
-  .no_touch input:hover, .no_touch select:hover, .no_touch textarea:hover { border-color: #363636; }
+  .no_touch input:hover, .no_touch select:hover, .no_touch textarea:hover { border-color: #363636; font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
   .no_touch label.select:hover select { border-color: #363636; }
   .no_touch label.select:not(.disabled):hover:after { color: #363636; }
   legend { border-bottom: 1px solid #828282; }
   legend small { color: #949494; }
-  .uneditable-input, .uneditable-textarea { background-color: #424242; border: 1px solid #000; color: #e6e6e6; }
+  .uneditable-input, .uneditable-textarea { background-color: #424242; border: 1px solid #000; color: #e6e6e6; font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
   .uneditable-input:focus, .uneditable-textarea:focus { border-color: rgba(130, 130, 130, 0.8); box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(130, 130, 130, 0.6); }
-  textarea { background-color: #545454; border: 1px solid #000; color: #e6e6e6; }
-  textarea:focus { border-color: rgba(130, 130, 130, 0.8); box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(130, 130, 130, 0.6); }
+  textarea { background-color: #545454; border: 1px solid #000; color: #e6e6e6; font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
+  textarea:focus { border-color: rgba(130, 130, 130, 0.8); box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(130, 130, 130, 0.6); font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
   ::-webkit-input-placeholder { color: #e6e6e6; }
   :-moz-placeholder { color: #e6e6e6; }
   ::-moz-placeholder { color: #e6e6e6; }
-  input:-moz-placeholder, textarea:-moz-placeholder { color: #e6e6e6; }
-  input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color: #e6e6e6; }
-  input[disabled], input[readonly], textarea[disabled], textarea[readonly] { background-color: #545454; }
+  input:-moz-placeholder, textarea:-moz-placeholder { color: #e6e6e6; font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
+  input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color: #e6e6e6; font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
+  input[disabled], input[readonly], textarea[disabled], textarea[readonly] { background-color: #545454; font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
   .form-actions { background-color: #424242; border-top: 1px solid #363636; }
   .help-block, .help-inline { color: #949494; }
   .input-append .add-on, .input-prepend .add-on { background-color: #828282; border: 1px solid #545454; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15); }
@@ -158,7 +158,7 @@
   #message-input.offline { background-color: #363636 !important; }
   #message-input.disabled { background-color: #363636; }
   #message-input-message { color: #949494; font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
-  #message_edit_form #message-input, #messages-input-container #message-input { background: padding-box #545454; border: 2px solid #363636; color: #e6e6e6; }
+  #message_edit_form #message-input, #messages-input-container #message-input { background: padding-box #545454; border: 2px solid #363636; color: #e6e6e6; font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
   #message_edit_form #message-input:focus, #messages-input-container #message-input:focus { border-color: #000; }
   #message_edit_form .emo_menu, #messages-input-container .emo_menu { color: rgba(230, 230, 230, 0.3); }
   #message_edit_form .emo_menu.active .ts_icon_happy_smile, #message_edit_form .emo_menu:hover .ts_icon_happy_smile, #messages-input-container .emo_menu.active .ts_icon_happy_smile, #messages-input-container .emo_menu:hover .ts_icon_happy_smile { color: #828282; }
@@ -200,7 +200,7 @@
   .menu:not(.keyboard_active) ul li:hover:not(.disabled) a { background: #222; border-bottom-color: #000; color: #e6e6e6; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15); }
   .menu:not(.keyboard_active) ul li:hover:not(.disabled) a.delete_link { color: #bf360c; }
   .menu input { background: #363636; border: 1px solid #545454; }
-  .menu textarea { background: #363636; border: 1px solid #545454; }
+  .menu textarea { background: #363636; border: 1px solid #545454; font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
   .menu #menu_footer .menu_footer { background: #000; border-top: 1px solid #363636; }
   #team_menu { background: #363636; border-bottom: 2px solid #363636; color: #e6e6e6; }
   #team_menu.active, #team_menu:hover { background: #363636; border-bottom-color: #363636; }
@@ -476,7 +476,7 @@
   .light_theme ts-message .meta { color: #949494; }
   .light_theme ts-message .file_service_icon { color: #949494; }
   .light_theme #message_editing_info { color: #949494; }
-  .light_theme #message_edit_form textarea { color: #e6e6e6; }
+  .light_theme #message_edit_form textarea { color: #e6e6e6; font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
   .light_theme #message_edit_form p, .light_theme #message_edit_form span { color: #949494; }
   .light_theme .msg_inline_video_holder { border: 1px solid #363636; }
   .light_theme .pinned_item_message_header { color: #949494; }
@@ -488,7 +488,7 @@
   .dense_theme ts-message.archived, .dense_theme ts-message.bot_change, .dense_theme ts-message.joined, .dense_theme ts-message.left, .dense_theme ts-message.pinned .pinned_item_message_header, .dense_theme ts-message.purpose, .dense_theme ts-message.rename, .dense_theme ts-message.sh_created .sh_auto_msg_text, .dense_theme ts-message.sh_shared .sh_auto_msg_text, .dense_theme ts-message.topic, .dense_theme ts-message.unarchived { color: #949494; }
   .dense_theme #message_editing_info { color: #949494; }
   .dense_theme #message_edit_form { margin-left: 0; }
-  .dense_theme #message_edit_form textarea { color: #e6e6e6; }
+  .dense_theme #message_edit_form textarea { color: #e6e6e6; font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
   .dense_theme #message_edit_form p, .dense_theme #message_edit_form span { color: #949494; }
   .dense_theme #message_edit_form .timestamp { color: #949494; }
   .dense_theme .file_reference .post_meta, .dense_theme .file_reference .space_meta { color: #949494; }
@@ -802,7 +802,7 @@
   .comment_actions { color: #949494; }
   .comment_actions:hover { color: #e6e6e6; }
   .icon_quote { color: #e6e6e6; }
-  #flex_contents .comment_form textarea, #flex_contents .edit_comment_form textarea { color: #e6e6e6; }
+  #flex_contents .comment_form textarea, #flex_contents .edit_comment_form textarea { color: #e6e6e6; font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
   .tab_container .star_item .message .actions .btn_icon, .tab_container .star_item .message .actions .star_jump, .tab_container .star_item ts-message .actions .btn_icon, .tab_container .star_item ts-message .actions .star_jump, .tab_container .file_list_item .actions .btn_icon, .tab_container .file_list_item .actions .star_jump, .tab_container .file_comment_item .actions .btn_icon, .tab_container .file_comment_item .actions .star_jump { background-color: #222; }
   .tab_container .star_item .message .actions .btn:after, .tab_container .star_item ts-message .actions .btn:after, .tab_container .file_list_item .actions .btn:after, .tab_container .file_comment_item .actions .btn:after { border-color: #363636; }
   .tab_container .star_item ts-message .timestamp { color: #949494; }
@@ -1311,7 +1311,7 @@
   html.no_touch .service_row:not(.no_hover):hover a.summary, html.no_touch .service_row:not(.no_hover):hover .service_chevron { color: #e6e6e6; }
   html.no_touch .service:not(.no_hover):hover h4 { color: #e6e6e6; }
   html.no_touch .service:not(.no_hover):hover h4 a { color: #949494; }
-  html.no_touch input:hover, html.no_touch textarea:hover, html.no_touch select:hover, html.no_touch label.select:not(.disabled):hover:after, html.no_touch .accordion_section h4 a:hover { color: #c7c7c7; }
+  html.no_touch input:hover, html.no_touch textarea:hover, html.no_touch select:hover, html.no_touch label.select:not(.disabled):hover:after, html.no_touch .accordion_section h4 a:hover { color: #c7c7c7; font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
   html.no_touch .btn:hover, html.no_touch .btn.hover, html.no_touch .btn:focus { background: #c7c7c7; }
   html.no_touch .btn.btn_outline.btn_danger:hover { background: #000; }
   html.no_touch .btn_outline:hover, html.no_touch .btn_outline.hover { background: #222; border: 1px solid #363636; color: #e6e6e6 !important; }
@@ -1466,7 +1466,7 @@
   .fs_split .fs_split_pane .fs_split_flex_wrapper .fs_split_well a { color: #e6e6e6; }
   .fs_split .header_error_message { background: #f15626; border-left: 0.5rem solid #bf360c; }
   .fs_split .error_message { color: #bf360c; }
-  .fs_split .error input, .fs_split .error textarea { background: #f15626; border: 1px solid #bf360c; }
+  .fs_split .error input, .fs_split .error textarea { background: #f15626; border: 1px solid #bf360c; font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
   .fs_split .error input:focus, .fs_split .error textarea:focus { border-color: #f15626; box-shadow: 0 0 7px rgba(191, 54, 12, 0.4); }
   .fs_split_pane_left { background-color: #222; color: #e6e6e6; }
   .fs_split_pane_right { background-color: #222; }
