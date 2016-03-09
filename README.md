@@ -1,40 +1,31 @@
 # Slack Night Mode
 A Stylish style for easy Slack theming. [CC0](http://creativecommons.org/publicdomain/zero/1.0/).
 
+Forked from [laCour/slack-night-mode](https://github.com/laCour/slack-night-mode). Thanks for your excellent work, Jonathan.
+
+The differences are that my edits use the custom font, when set, for input fields in addition to text display.
+I also added my preferred theme variants.
+
 ## Usage
 
 This theme requires that you use the Stylish extension for your browser (available for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish/), [Chrome](https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe), and [Safari](http://sobolev.us/stylish/)).
 
-If you're using the desktop application on Linux or Windows, you can find out how to use this theme at the [bottom of my blog post](http://blog.lacour.me/making-slack-night-mode#toc_1).
+Further usage instructions may be found at the original project. You can search for my variants on userstyles.org.
 
 ## Build
 
 All themes can be built by running `make` (you will need [SassC](http://sass-lang.com/libsass)).
 
-## Themes
+## Theme Variants
 
-### Supported
+### Tomorrow Dark ([source](scss/themes/_tomorrow_dark.scss) - [build](css/variants/tomorrow_dark.css))
 
-#### Black ([source](scss/main.scss) - [build](css/black.css) - [install](https://userstyles.org/styles/117475/slack-night-mode-black))
+Themed to be similar to the base palette of [base16-tomorrow-dark](https://github.com/chriskempson/base16) by Chris Kempson.
 
-The primary supported theme. This is an excellent theme if you use a program like f.lux or redshift.
+### Tomorrow Dark Monospaced ([source](scss/themes/_tomorrow_dark-monospaced.scss) - [build](css/variants/tomorrow_dark-monospaced.css))
 
-![Black Screenshot](https://df6a.https.cdn.softlayer.net/80DF6A/static.userstyles.org/style_screenshots/117475_after.png)
+Uses monospaced font families.
 
-#### Aubergine ([source](scss/themes/_aubergine.scss) - [build](css/variants/aubergine.css) - [install](https://userstyles.org/styles/101971/slack-night-mode))
+### Tomorrow Dark Monospaced Input ([source](scss/themes/_tomorrow_dark-monospaced-input.scss) - [build](css/variants/tomorrow_dark-monospaced-input.css))
 
-This is based on Slack's aubergine/maroon style. It's the original theme.
-
-![Aubergine Screenshot](https://df6a.https.cdn.softlayer.net/80DF6A/static.userstyles.org/style_screenshots/101971_after.png)
-
-### Variants
-
-#### Midnight Blue ([source](scss/themes/_midnight-blue.scss) - [build](css/variants/midnight-blue.css))
-
-### Extensions
-
-Variants can have extensions which add additional changes.
-
-#### Monospaced ([source](scss/themes/_monospaced.scss))
-
-Replaces the messaging font stack with a monospace font stack.
+This one uses Input Sans Narrow as the font, and falls back to the standard monospaced options if it isn't available.
