@@ -22,6 +22,8 @@ All themes can be built by running `make` (you will need [SassC](http://sass-lan
 
 Themed to be similar to the base palette of [base16-tomorrow-dark](https://github.com/chriskempson/base16) by Chris Kempson.
 
+![screenshot](screenshots/screenshot.png)
+
 ### Tomorrow Dark Monospaced ([source](scss/themes/_tomorrow_dark-monospaced.scss) - [build](css/variants/tomorrow_dark-monospaced.css))
 
 Uses monospaced font families.
