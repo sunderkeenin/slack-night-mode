@@ -31,3 +31,5 @@ Uses monospaced font families.
 ### Tomorrow Dark Monospaced Input ([source](scss/themes/_tomorrow_dark-monospaced-input.scss) - [build](css/variants/tomorrow_dark-monospaced-input.css))
 
 This one uses Input Sans Narrow as the font, and falls back to the standard monospaced options if it isn't available.
+
+![screenshot](screenshots/screenshot-input.png)
