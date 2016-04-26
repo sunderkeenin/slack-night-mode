@@ -28,6 +28,10 @@
   }
 }
 
+#team_header_user_name {
+  color: $color-highlight;
+}
+
 #menu.team_menu {
   box-shadow: 0 3px 8px $color-shadow-medium;
 
@@ -52,4 +56,12 @@
     color: $color-highlight;
     text-shadow: 1px 1px $color-shadow-light;
   }
+}
+
+.slack_menu_section::before {
+  border-top: 1px solid $color-shade-light;
+}
+
+.slack_menu_header_secondary {
+  color: $color-highlight;
 }

@@ -139,7 +139,7 @@ html.no_touch {
   input:hover,
   textarea:hover,
   select:hover,
-  label.select:not(.disabled):hover:after,
+  label.select:not(.disabled):hover::after,
   .accordion_section h4 a:hover {
     color: $base-link-color-active;
     @if global-variable-exists(base-font-family) {
@@ -273,6 +273,20 @@ html.no_touch {
   .disabled .fsl_item.fsl_token {
     background-color: $color-shade-lightest;
     border-color: $color-shade-lightest;
+  }
+}
+
+.admin_pref {
+  &:not(:first-of-type) {
+    border-top: 1px solid $color-base;
+  }
+
+  &.locked {
+    background-color: rgba($color-red, 0.2);
+  }
+
+  .admin_pref_locked_label {
+    color: $color-highlight;
   }
 }
 

@@ -1,6 +1,13 @@
 # Changelog
 
-* **08/03/16**: Added styles for incoming calls (621dce9). Updated styles for inline media expanders (216082d). Updated styles for new channel header (3c2114d). Added styles for new inline channel topic editor (15da7cd). Added styles for new day containers (8185fe3). Updated styles for flexpane search refinement tabs (f227f34). Fixed background color on unloaded image thumbnails in the flexpane (f508a8d). Updated styles for notifications (25d18fe).
+* **23/04/16**: Added styles for new date jumper (567e550) and new flexpane subheadings (b5259d9). Improve styling of file upload button on hover (a27e73e and #48). Fixed styles for team admin preferences page (4b97c35), search autocomplete dropdown (c63a023), channel link hover border radius (b4d8254), readonly/disabled inputs backgrounds (b81cd1d), inline image attachment backgrounds (5cbc44a), and various fixes for the image viewer (c8e88d2).
+* **17/04/16**: Improve styles for main input (#48), search input (#47), and notification bar links (#46). Corrected styles for emoji skin selector (#52), flexpane reactions (#51), current user's name (#50), member pages (#49), and loading screen "loading" text (815df5d).
+* **29/03/16**: Updated styles for new loading screen (#45). Removed limited messaging alert background (#44). Updated styles for reaction toasts (#43).
+* **21/03/16**: Updated styles for updated team menu (21f6a41).
+* **20/03/16**: Corrected styles for direct message close hover (#42).
+* **16/03/16**: Corrected styles for quick switcher items (#41).
+* **10/03/16**: Corrected styles for notification bars (54c8f09).
+* **09/03/16**: Added styles for incoming calls (621dce9). Updated styles for inline media expanders (216082d). Updated styles for new channel header (3c2114d). Added styles for new inline channel topic editor (15da7cd). Added styles for new day containers (8185fe3). Updated styles for flexpane search refinement tabs (f227f34). Fixed background color on unloaded image thumbnails in the flexpane (f508a8d). Updated styles for notifications (25d18fe).
 * **29/01/16**: Added styles for split pages (#39). Corrected styles for floating menus on error pages (acfc844). Corrected overlapping issue with scrollbar (d6cf363). Corrected styles for highlighted messages (42d0efd).
 * **23/01/16**: Corrected styles for post editor (#38). Corrected background color issue for hovered file menu items (890d811).
 * **20/01/16 - Major Release**:  Added styles for OAuth pages (d0d0cd9), 404 pages (786a690), pricing page (282c534), and for the API documentation (1f64964). Use white Slack logo on pages (0e4bbbc). Improved readability of code snippets (be0e3d5). Corrected styles for updated app directory (f30407e).

@@ -50,22 +50,22 @@
   header {
     background-color: $color-shade-darkest;
 
-    .keyword:before,
-    .modifier:before {
+    .keyword::before,
+    .modifier::before {
       background: $color-shade-lightest;
       border: 1px solid $color-shade-light;
       color: $base-font-color;
     }
 
     .selected {
-      .keyword:before,
-      .modifier:before {
+      .keyword::before,
+      .modifier::before {
         background: rgba($color-shade-light, 0.25);
         border: $color-shade-lightest;
       }
     }
 
-    .modifier.incomplete:before {
+    .modifier.incomplete::before {
       background: $color-shade-dark;
       border: 1px solid $color-shade-darkest;
     }
@@ -85,28 +85,28 @@
   }
 
   .history {
-    .keyword:before {
+    .keyword::before {
       background: $color-shade-lightest;
       border: 1px solid $color-shade-light;
       color: $base-font-color;
     }
 
     .modifier {
-      &:before {
+      &::before {
         background: $color-shade-lightest;
         border: 1px solid $color-shade-light;
         color: $base-font-color;
       }
 
-      &.incomplete:before {
+      &.incomplete::before {
         background: $color-shade-dark;
         border: 1px solid $color-shade-darkest;
       }
     }
 
     .selected {
-      .keyword:before,
-      .modifier:before {
+      .keyword::before,
+      .modifier::before {
         background: rgba($color-shade-light, 0.25);
         border: $color-shade-lightest;
       }
@@ -141,33 +141,81 @@
   }
 }
 
+#autocomplete_menu:not(.search_menu) {
+  header {
+    background-color: $color-shade-darkest;
+  }
+
+  ol {
+    li {
+      &.selected {
+        background-color: $color-shade-lightest;
+        color: $base-font-color;
+
+        &:hover {
+          background-color: $color-shade-lightest;
+          color: $base-font-color;
+        }
+
+        .username,
+        &:hover .username,
+        &.keyword_match .modifier,
+        &:hover.keyword_match .modifier,
+        .keyword_placeholder,
+        &:hover .keyword_placeholder {
+          color: $color-highlight;
+        }
+
+        .ts_icon,
+        &:hover .ts_icon {
+          color: $color-highlight !important;
+        }
+      }
+
+      &:hover {
+        background-color: $color-shade-light;
+      }
+
+      .ellipsis_icon,
+      .history_icon,
+      .modifier_icon {
+        color: $color-highlight;
+      }
+    }
+  }
+
+  .keyword_placeholder {
+    color: $color-highlight;
+  }
+}
+
 .search_light_grey {
   color: $base-font-color !important;
 }
 
 .highlighter_underlay {
-  .keyword:before {
+  .keyword::before {
     background: $color-shade-lightest;
     border: 1px solid $color-shade-light;
     color: $base-font-color;
   }
 
   .modifier {
-    &:before {
+    &::before {
       background: $color-shade-lightest;
       border: 1px solid $color-shade-light;
       color: $base-font-color;
     }
 
-    &.incomplete:before {
+    &.incomplete::before {
       background: $color-shade-dark;
       border: 1px solid $color-shade-darkest;
     }
   }
 
   .selected {
-    .keyword:before,
-    .modifier:before {
+    .keyword::before,
+    .modifier::before {
       background: rgba($color-shade-lightest, 0.25);
       border: $color-shade-light;
     }
