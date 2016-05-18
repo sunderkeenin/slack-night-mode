@@ -109,7 +109,7 @@
   }
 }
 
-.channel_header_refresh #client_body:not(.onboarding)::before {
+#client_body:not(.onboarding)::before {
   background: $color-base;
   border-bottom: 1px solid $color-base;
 }
@@ -217,11 +217,6 @@
 #rxn_toast_div {
   background: $color-shade-darkest;
   border: 1px solid $color-shade-light;
-
-  &.header_refresh {
-    background: $color-shade-darkest;
-    border: 1px solid $color-shade-light;
-  }
 }
 
 #whats_new_burst {
