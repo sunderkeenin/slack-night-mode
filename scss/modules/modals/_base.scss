@@ -15,9 +15,9 @@
 }
 
 .modal-footer {
-  background: padding-box $color-shade-darkest;
-  border-top: 1px solid $color-shade-light;
-  box-shadow: inset 0 1px 0 $color-shadow-dark;
+  background: padding-box $color-base;
+  border-top: 1px solid transparent;
+  box-shadow: none;
 }
 
 .modal-header {
@@ -48,7 +48,7 @@
   }
 
   #fs_modal_sidebar a {
-    color: $base-link-color;
+    color: $base-font-color;
 
     &:hover {
       background: $color-shade-dark;
@@ -56,7 +56,7 @@
 
     &.active {
       background: $color-shade-darkest;
-      color: $base-link-color-active;
+      color: $base-font-color;
       text-shadow: 0 1px 0 $color-shadow-light;
     }
   }

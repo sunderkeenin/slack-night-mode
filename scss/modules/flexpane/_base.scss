@@ -1,10 +1,6 @@
 #flex_contents {
   background: $color-base;
 
-  .monkey_scroll_hider {
-    background: $color-base;
-  }
-
   .heading {
     background: $color-base;
     color: $base-link-color;
@@ -96,4 +92,8 @@
   background: $color-base;
   border-bottom: 1px solid $color-shade-darkest;
   color: $base-font-color;
+}
+
+.msg_right_link {
+  color: $base-link-color;
 }

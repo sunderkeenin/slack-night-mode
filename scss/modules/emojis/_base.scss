@@ -3,12 +3,12 @@
   box-shadow: 0 2px 10px $color-shadow-dark;
   color: $base-font-color;
 
-  h3 {
-    background: rgba($color-base, 0.95);
+  #emoji_menu_items_scroller {
+    background: $color-base !important;
   }
 
-  ul li a:hover {
-    background-color: $base-link-color-active;
+  h3 {
+    background: rgba($color-base, 0.95);
   }
 
   #emoji_div_default_rxns {
@@ -30,6 +30,7 @@
   }
 
   #emoji_menu_content:hover #emoji_skin_button_container {
+    background: $color-shade-light;
     border: 1px solid $color-shade-dark;
   }
 
@@ -76,10 +77,6 @@
       border-bottom: 3px solid $color-shade-mid;
       color: $base-font-color;
     }
-  }
-
-  #monkey_scroll_wrapper_for_emoji_menu_items_scroller {
-    background: $color-base;
   }
 
   #emoji_input:focus {
