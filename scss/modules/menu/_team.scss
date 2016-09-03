@@ -5,8 +5,8 @@
 
   &.active,
   &:hover {
-    background: $color-shade-dark;
-    border-bottom-color: $color-shade-dark;
+    background: $color-shade-dark !important;
+    border-bottom-color: $color-shade-dark !important;
 
     i {
       color: $base-font-color;
@@ -25,6 +25,11 @@
     .presence_icon {
       text-shadow: 0 1px 1px $color-shadow-light;
     }
+  }
+
+  .team_name_caret,
+  .notifications_menu_btn {
+    color: $base-font-color !important;
   }
 }
 

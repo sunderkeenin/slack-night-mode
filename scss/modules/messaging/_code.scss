@@ -13,7 +13,7 @@ code {
   background: $color-shade-darkest;
 
   pre {
-    color: $base-font-color;
+    color: $base-font-color !important;
   }
 }
 
@@ -33,6 +33,10 @@ code {
   background: $color-shade-darkest;
   border: 1px solid $color-shade-dark;
   color: $base-font-color;
+
+  pre {
+    background: transparent !important;
+  }
 
   div.CodeMirror-cursor {
     border-left: 1px solid $base-font-color;
@@ -179,11 +183,11 @@ div.CodeMirror span {
 }
 
 .CodeMirror-selected {
-  background: $color-base;
+  background: $color-shade-lightest;
 }
 
 .CodeMirror-focused .CodeMirror-selected {
-  background: $color-base;
+  background: $color-shade-lightest;
 }
 
 .cm-searching {
