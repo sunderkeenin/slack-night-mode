@@ -1,3 +1,7 @@
+#col_flex {
+  background: transparent;
+}
+
 #flex_contents {
   background: $color-base;
 
@@ -54,7 +58,7 @@
     }
   }
 
-  .toolbar {
+  .toolbar_container {
     background: $color-base;
   }
 
@@ -92,7 +96,7 @@
   }
 }
 
-.toolbar {
+.toolbar_container {
   background: $color-base;
   border-bottom: 1px solid $color-shade-darkest;
   color: $base-font-color;

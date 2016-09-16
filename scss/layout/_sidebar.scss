@@ -11,7 +11,7 @@
     &.group.active a.group_name,
     &.member.active a.im_name {
       background: $color-shade-light;
-      color: $base-font-color;
+      color: rgba($base-font-color, 0.9) !important;
     }
   }
 
@@ -20,7 +20,7 @@
     &.group.active .unread_highlight,
     &.member.active .unread_highlight {
       background: $color-base;
-      color: $base-font-color;
+      color: $base-font-color !important;
     }
   }
 }
@@ -42,7 +42,7 @@
       text-shadow: 0 1px 1px $color-shadow-light;
 
       a {
-        color: $base-font-color !important;
+        color: rgba($base-font-color, 0.8) !important;
 
         &:hover {
           background: $color-base !important;
@@ -86,11 +86,12 @@
 
       &.unread {
         &:not(.muted_channel) a {
-          color: $base-font-color;
+          color: lighten($base-font-color, 6%) !important;
         }
 
         .prefix {
-          color: $base-font-color;
+          color: $base-font-color !important;
+          opacity: 1;
         }
       }
     }
@@ -101,7 +102,7 @@
     color: $base-font-color;
   }
 
-  .unread_highlight {
+  .unread_highlights {
     background: $color-red;
     color: $base-font-color;
     text-shadow: 0 1px 0 $color-shadow-light;
@@ -119,6 +120,28 @@
   &:hover {
     border-bottom: 1px solid $base-link-color-active;
     color: $base-link-color-active !important;
+  }
+}
+
+#channels_scroller.show_which_channel_is_active ul li.active a {
+  &.channel_name,
+  &.group_name,
+  &.im_name,
+  &.mpim_name {
+    background: $color-base;
+    color: $base-font-color;
+  }
+
+  &.channel_name,
+  &.group_name {
+    .prefix {
+      color: $color-highlight;
+    }
+  }
+
+  .unread_highlights {
+    background: $color-red;
+    color: $base-font-color;
   }
 }
 

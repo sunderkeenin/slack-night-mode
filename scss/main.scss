@@ -1,4 +1,4 @@
-@-moz-document domain(slack.com) {
+@-moz-document regexp("https://[^./]*\\.slack\\.com/.*") {
 
   @import "helpers/variables";
   @import "helpers/mixins";
@@ -54,6 +54,7 @@
   @import "modules/emojis/reactions";
 
   @import "modules/modals/base";
+  @import "modules/modals/channel";
   @import "modules/modals/channels";
   @import "modules/modals/direct-messages";
   @import "modules/modals/file";
@@ -65,6 +66,7 @@
   @import "modules/modals/quick-search";
   @import "modules/modals/call";
   @import "modules/modals/help";
+  @import "modules/modals/keyboard-shortcuts";
 
   @import "modules/tooltips/base";
   @import "modules/tooltips/coachmarks";
