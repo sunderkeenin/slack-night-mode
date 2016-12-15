@@ -12,11 +12,15 @@ This theme requires that you use the Stylish extension for your browser (availab
 
 Further usage instructions may be found at the original project. You can search for my variants on userstyles.org.
 
-## Build
+![Black Screenshot](https://userstyles.org/style_screenshots/117475_after.png)
 
 All themes can be built by running `make` (you will need [SassC](http://sass-lang.com/libsass)).
 
 ## Theme Variants
+
+### Aubergine
+
+![Aubergine Screenshot](https://userstyles.org/style_screenshots/101971_after.png)
 
 ### Tomorrow Dark ([source](scss/themes/_tomorrow_dark.scss) - [build](css/variants/tomorrow_dark.css))
 
