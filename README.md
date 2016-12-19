@@ -28,6 +28,10 @@ Themed to be similar to the base palette of [base16-tomorrow-dark](https://githu
 
 ![screenshot](screenshots/screenshot.png)
 
+* **Arc ([source](scss/themes/_arc-dark.scss) - [build](css/variants/arc-dark.css))** _by [@Lemmmy](https://github.com/Lemmmy)_
+* **Midnight Blue ([source](scss/themes/_midnight-blue.scss) - [build](css/variants/midnight-blue.css))** _by [@matt-h](https://github.com/matt-h)_
+* **Tomorrow Dark (base16) ([repository](https://github.com/danarnold/slack-night-mode))** _by [@danarnold](https://github.com/danarnold)_
+
 ### Tomorrow Dark Monospaced ([source](scss/themes/_tomorrow_dark-monospaced.scss) - [build](css/variants/tomorrow_dark-monospaced.css))
 
 Uses monospaced font families.
