@@ -1,9 +1,17 @@
 .attachment_group {
   &.has_container {
+    background: $color-base;
     border: 1px solid $color-shade-dark;
 
     .inline_attachment::after {
       background-color: $color-shade-dark;
+    }
+
+    &.has_link:hover {
+      border-bottom-color: $color-shade-dark;
+      border-left-color: $color-shade-dark;
+      border-right-color: $color-shade-dark;
+      box-shadow: 0 1px 1px $color-shadow-light;
     }
   }
 
@@ -18,6 +26,14 @@
 
     .attachment_source_name + .attachment_author_name::before {
       color: $color-highlight;
+    }
+  }
+
+  .inline_attachment.reply_broadcast + .attachment_rule {
+    color: $color-highlight;
+
+    &::after {
+      border-bottom: 1px solid $color-shade-dark;
     }
   }
 
@@ -346,5 +362,18 @@ body:not(.feature_new_message_markup) .meta {
   code,
   pre {
     background: $color-shade-dark;
+  }
+}
+
+ts-message .reply_bar {
+  .reply_bar_caret,
+  .view_conv_hover,
+  .last_reply_at {
+    color: $color-highlight;
+  }
+
+  &:hover {
+    background: $color-base;
+    border-color: $color-shade-darkest;
   }
 }

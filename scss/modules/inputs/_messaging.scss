@@ -70,6 +70,13 @@
       border-color: $color-shade-dark;
     }
   }
+
+  #msg_input {
+    background: padding-box $color-shade-light;
+    border-color: $color-shade-mid;
+    border-left: 0;
+    color: $base-font-color;
+  }
 }
 
 #msg_input {
@@ -149,4 +156,10 @@
 
 #special_formatting_text {
   color: $color-highlight;
+}
+
+#msg_form .emo_menu,
+#message_edit_form .emo_menu,
+.inline_message_input_container .emo_menu {
+  color: rgba($base-font-color, 0.35);
 }
