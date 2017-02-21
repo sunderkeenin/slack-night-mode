@@ -1,10 +1,10 @@
-#member_preview_scroller a:not(.member_name),
-.team_list_item a:not(.member_name) {
+#member_preview_scroller a:not(.member_name):not(.current_status_preset_option),
+.team_list_item a:not(.member_name):not(.current_status_preset_option) {
   color: $base-link-color;
-}
 
-#member_preview_scroller a:not(.member_name):hover {
-  color: $base-link-color-active;
+  &:hover {
+    color: $base-link-color-active;
+  }
 }
 
 #member_preview_scroller,
@@ -120,22 +120,21 @@
   border-top: 1px solid $color-shade-light;
   color: $base-link-color;
 
-  a:not(.member_name):hover {
-    color: $base-link-color-active;
-  }
-
   .member_name {
     color: $base-font-color;
   }
 }
 
-#client-ui #team_list .team_list_item,
-#member_preview_scroller .team_list_item {
-  &.expanded {
-    border-color: $color-shade-dark;
-  }
+#client-ui .searchable_member_list,
+#client-ui #team_list,
+#member_preview_scroller {
+  .team_list_item {
+    &.expanded {
+      border-color: $color-shade-dark;
+    }
 
-  &:hover {
-    border-color: $color-shade-light;
+    &:hover {
+      border-color: $color-shade-light;
+    }
   }
 }

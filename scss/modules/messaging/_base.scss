@@ -45,8 +45,8 @@ ts-message {
     color: $color-highlight;
   }
 
-  &.standalone:not(.for_mention_display):not(.for_search_display):not(.for_star_display) {
-    border: 1px solid $color-shade-light;
+  &.standalone:not(.for_mention_display):not(.for_search_display):not(.for_top_results_search_display):not(.for_star_display) {
+    border: 1px solid $color-shade-dark;
   }
 
   &.unprocessed {
@@ -70,9 +70,8 @@ ts-message {
     color: rgba($base-font-color, 0.8);
   }
 
-  .action_hover_container,
-  .message_actions_container message_actions {
-    border: 1px solid $color-base;
+  .action_hover_container {
+    border: 1px solid $color-shade-dark;
 
     &:hover {
       border-color: $color-shade-light;
@@ -84,19 +83,19 @@ ts-message {
       }
     }
 
-    a {
+    .btn_msg_action {
       background: $color-base;
-      border-right: 1px solid $color-base;
+      border-right: 1px solid $color-shade-dark;
       color: $base-link-color;
 
       &:hover {
-        color: $base-link-color;
+        color: $base-font-color;
       }
 
       &.active,
       &:active {
         background: $color-shade-dark;
-        color: $base-link-color-active;
+        color: $base-font-color;
       }
     }
   }
@@ -155,8 +154,8 @@ ts-message {
   background: $color-shade-darkest;
 }
 
-#conversation_container {
-  background-color: rgba($color-shade-dark, 0.85);
+#convo_container {
+  background-color: $color-base;
 
   #message_edit_container {
     border-bottom: 1px solid $color-shade-light;
@@ -186,7 +185,7 @@ ts-message {
 
     ts-message {
       &.selected {
-        background: $color-shade-light;
+        background: $color-base;
       }
     }
 
@@ -208,10 +207,10 @@ ts-message {
         }
 
         &:not(.selected):not(.highlight):not(.delete_mode) {
-          background-color: rgba($color-red, 0.5);
+          background-color: $color-base;
 
           &.new {
-            background-color: rgba($color-red, 0.75);
+            background-color: lighten($color-base, 5%);
           }
         }
       }
@@ -219,24 +218,15 @@ ts-message {
   }
 }
 
-#msg_input_overlay {
-  background: $color-base;
-
-  #close_conversation {
-    background: rgba($black, 0.8);
-    color: $color-highlight;
-  }
-}
-
 #msgs_div {
   .unread_divider {
     hr {
-      border-top: 1px solid $color-red;
+      border-top: 1px solid $color-shade-light;
     }
 
     .divider_label {
       background: $color-base;
-      color: $color-red;
+      color: $color-shade-light;
     }
 
     &.no_unreads {
@@ -247,10 +237,6 @@ ts-message {
       .divider_label {
         color: $color-highlight;
       }
-    }
-
-    &.adjacent_to_date {
-      background: $color-base;
     }
   }
 

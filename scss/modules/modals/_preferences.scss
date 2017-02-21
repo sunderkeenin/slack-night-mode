@@ -7,7 +7,7 @@
     }
 
     &:hover:not(.active) {
-      background: rgba($color-shade-darkest, 0.75);
+      background: $color-base;
       color: $base-font-color;
     }
   }
@@ -16,10 +16,6 @@
     &:hover:not(.disabled) ts-icon {
       color: $color-highlight;
     }
-  }
-
-  #debug_prefs_dialog {
-    background: $color-shade-mid;
   }
 
   #prefs_themes {

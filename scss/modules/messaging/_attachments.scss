@@ -77,8 +77,6 @@
 
 .msg_inline_attachment_collapser,
 .msg_inline_attachment_expander,
-.msg_inline_email_collapser,
-.msg_inline_email_expander,
 .msg_inline_file_preview_collapser,
 .msg_inline_file_preview_expander,
 .msg_inline_img_collapser,
@@ -103,10 +101,6 @@
   &:hover {
     color: $color-highlight;
   }
-}
-
-.msg_inline_file_preview_collapser.title_hidden {
-  color: $color-highlight;
 }
 
 .inline_attachment {
@@ -213,8 +207,16 @@
 
 .file_container {
   background: $color-shade-darkest;
-  border: 1px solid $color-shade-darkest;
+  border: 1px solid $color-shade-dark;
   color: $base-font-color;
+
+  &:hover,
+  &:focus,
+  &.file_menu_open {
+    border-bottom-color: $color-shade-dark;
+    border-left-color: $color-shade-dark;
+    border-right-color: $color-shade-dark;
+  }
 
   &::after,
   &.post_container::after {
@@ -317,17 +319,6 @@
   }
 }
 
-body:not(.feature_new_message_markup) .meta {
-  &.msg_inline_file_preview_toggler,
-  &.msg_inline_img_toggler {
-    a,
-    .member,
-    .service_link {
-      color: $base-link-color !important;
-    }
-  }
-}
-
 .post_body {
   ul {
     &.checklist {
@@ -376,4 +367,8 @@ ts-message .reply_bar {
     background: $color-base;
     border-color: $color-shade-darkest;
   }
+}
+
+.inline_color_block {
+  border-color: $color-shade-light;
 }

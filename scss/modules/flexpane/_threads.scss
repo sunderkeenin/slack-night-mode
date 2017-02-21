@@ -15,6 +15,7 @@
     .message_input div,
     textarea {
       border-color: $color-shade-dark;
+      color: $base-font-color;
 
       &:active,
       &:focus {
@@ -38,11 +39,22 @@
 }
 
 
-#convo_container .convo_flexpane_divider {
-  border-top: 1px solid $color-shade-dark;
-  color: $color-highlight;
+#convo_container {
+  .convo_flexpane_divider {
+    border-top-color: $color-shade-dark;
+    color: $color-highlight;
 
-  .reply_count {
-    background: $color-base;
+    .reply_count {
+      background: $color-base;
+    }
   }
+
+  ts-conversation ts-message.selected .message_content .thread_channel_link {
+    color: $base-link-color;
+  }
+}
+
+#convo_tab .message_input,
+#convo_tab textarea#msg_text {
+  color: $base-font-color;
 }
