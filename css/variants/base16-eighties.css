@@ -274,6 +274,8 @@
   #im-list li.member.active .presence.away, #starred-list li.member.active .presence.away { text-shadow: 1px 1px rgba(0, 0, 0, 0.15); }
   #file_member_filter { background: #2d2d2d; }
   #client-ui .member_filter { border: 1px solid #515151; }
+  #client-ui .member_file_filter_menu .searchable_member_list_scroller .team_list_item:hover .channel_page_member_row { background: #393939; }
+  #client-ui .member_file_filter_menu .searchable_member_list_scroller .team_list_item:hover .member { color: #e8e6df; }
   #client-ui #team_list_container #team_filter .member_filter { background-color: #393939; border-left: 1px solid #2d2d2d; }
   #client-ui #file_member_filter { border-color: #515151; }
   #client-ui #file_member_filter .member_filter { border-color: #515151; }
@@ -355,6 +357,7 @@
   .day_container .day_divider { background: none; color: #6699cc; }
   .day_container .day_divider .day_divider_label { background: #393939; }
   .search_form { border-color: #515151; }
+  .search_form .search_input { background: transparent; }
   .search_form:hover { border-color: #747369; }
   .search_focused .search_form { border-color: #747369; }
   .search_clear_icon .ts_icon_times_circle { color: #6699cc; }
@@ -377,7 +380,7 @@
   #msgs_overlay_div { background: #393939; }
   ts-message { color: #e8e6df; }
   ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply), ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply) { background: rgba(45, 45, 45, 0.1); }
-  ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply).is_pinned, ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply).is_pinned { background: rgba(45, 45, 45, 0.2); }
+  ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply).is_pinned, ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply).show_recap:not(.is_pinned), ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply).is_pinned, ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply).show_recap:not(.is_pinned) { background: rgba(45, 45, 45, 0.2); }
   ts-message.is_pinned { background: rgba(45, 45, 45, 0.15); }
   ts-message .timestamp { color: #f2f0ec; }
   ts-message .edited, ts-message .temp_msg_controls { color: #6699cc; }
@@ -389,6 +392,12 @@
   ts-message.unprocessed { color: rgba(232, 230, 223, 0.75); }
   ts-message.highlight { background: rgba(191, 54, 12, 0.4); }
   ts-message.highlight:hover { background: rgba(191, 54, 12, 0.4); }
+  ts-message .is_highlights_holder { color: #6699cc; }
+  ts-message .is_highlights_holder ts-icon { color: #6699cc; }
+  ts-message .is_highlights_holder .highlights_feedback_link { color: #6699cc; }
+  ts-message .is_highlights_holder .highlights_feedback a:not(.highlights_feedback_link) { color: #e8e6df; }
+  ts-message .recap_highlight { background: rgba(191, 54, 12, 0.4); }
+  ts-message .recap_highlight a { color: #e8e6df; }
   ts-message.delete_mode, ts-message.multi_delete_mode { background: rgba(191, 54, 12, 0.75); }
   ts-message.automated .message_body { color: rgba(232, 230, 223, 0.8); }
   ts-message .action_hover_container { border: 1px solid #393939; }
@@ -406,6 +415,8 @@
   ts-message .pinned_item_message_header { color: #6699cc; }
   ts-message .mention { background: #515151; border: 1px solid #747369; border-radius: 3px; color: #e8e6df; padding: 0 3px; }
   ts-message a .mention { color: #e8e6df; }
+  ts-message.show_recap:not(.is_pinned) { background: rgba(45, 45, 45, 0.15); }
+  ts-message.show_recap:not(.is_pinned):hover { background: rgba(45, 45, 45, 0.15); }
   .selecting_messages ts-message.multi_delete_mode:hover { background: rgba(191, 54, 12, 0.75); }
   .selecting_messages ts-message:hover { background: #2d2d2d; }
   #convo_container { background-color: #393939; }
@@ -708,7 +719,7 @@
   .flexpane_redesign #flex_contents .heading_text { color: #f2f0ec; }
   .flexpane_redesign .close_flexpane { color: #6699cc; }
   .flexpane_redesign .close_flexpane:focus, .flexpane_redesign .close_flexpane:hover { color: #e8e6df; }
-  .flexbox_client.flexpane_redesign.flex_pane_showing #col_flex { border-left: 1px solid #393939; }
+  .flexpane_redesign.flex_pane_showing #col_flex { border-left: 1px solid #393939; }
   .toolbar_container { background: #393939; border-bottom: 1px solid #2d2d2d; color: #e8e6df; }
   .msg_right_link { color: #f2f0ec; }
   #details_tab .heading { background: #2c2c2c; }
@@ -1038,12 +1049,22 @@
   .admin_invites_account_type_option:hover:not(.disabled) h3 { color: #e8e6df; }
   .admin_invites_account_type_option.disabled .account_type_disabled_hover { background: rgba(255, 255, 255, 0); }
   .admin_invites_account_type_option.disabled:hover .account_type_disabled_hover { background: rgba(57, 57, 57, 0.95); }
+  .admin_invites_container:not(.experiment_guest_profiles_and_expiration) #admin_invites_add_row { background: #393939; border-color: #393939; }
+  .admin_invite_row .delete_row, .admin_invite_row .hide_custom_message, .admin_invites_custom_message_container .delete_row, .admin_invites_custom_message_container .hide_custom_message { color: #6699cc; }
+  .admin_invite_row .delete_row:hover, .admin_invite_row .hide_custom_message:hover, .admin_invites_custom_message_container .delete_row:hover, .admin_invites_custom_message_container .hide_custom_message:hover { color: #bf360c; }
+  .admin_invite_row.delete_highlight, .admin_invites_custom_message_container.delete_highlight { background: rgba(191, 54, 12, 0.4); }
   #admin_invites_channel_picker_container { border-bottom: 1px solid #393939; }
   #admin_invites_add_row { background: #515151; border: 1px solid #393939; }
   .admin_invite_row .delete_row { color: #6699cc; }
   .admin_invite_row .delete_row:hover { color: #bf360c; }
   .admin_invite_row.delete_highlight { background: rgba(191, 54, 12, 0.25); }
   #admin_invites_workflow .lazy_filter_select .lfs_input_container { background-color: #515151; }
+  #channel_invite_tokens { background-color: #515151; border-color: #747369; }
+  #channel_invite_tokens.active { border-color: #6699cc; box-shadow: 0 0 7px rgba(102, 153, 204, 0.15); }
+  #channel_invite_tokens .member_token { background: #393939; color: #e8e6df; }
+  #channel_invite_tokens .member_token.ra { background: rgba(191, 54, 12, 0.4); }
+  .channel_invite_member .add_icon, .channel_invite_member_small .add_icon, .channel_invite_pending_user_small .add_icon { color: #e8e6df; }
+  .channel_invite_member .invite_user_group_avatar, .channel_invite_member_small .invite_user_group_avatar, .channel_invite_pending_user_small .invite_user_group_avatar { background-color: #393939; color: #e8e6df; }
   #shortcuts_dialog { background: rgba(57, 57, 57, 0.95); text-shadow: 0 1px 1px rgba(45, 45, 45, 0.7); }
   #shortcuts_dialog.modal .modal-body, #shortcuts_dialog.modal h1, #shortcuts_dialog.modal h3 { color: #e8e6df; }
   #shortcuts_dialog.modal ul ul { border-left-color: #515151; }
