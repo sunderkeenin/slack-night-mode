@@ -413,11 +413,12 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .p-custom_status_input__emoji_picker { border-right: 1px solid #363636; }
 
+.c-label { color: #AA8800; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; }
 
+.c-dialog__body { background: #222; color #AA8800 }
+.c-dialog__body--slack_scrollbar_with_padding { background: #222; }
 
-.c-dialog__body { background #222; }
-
-.c-dialog__title { color: #AA8800; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace }
+.c-dialog__title { color: #AA8800; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; }
 
 .c-dialog__header { background: #222; border-bottom-left-radius: 0; border-bottom-right-radius: 0; border-top-left-radius: 0; border-top-right-radius: 0; }
 
