@@ -1,6 +1,6 @@
-[lang=de-DE] #msg_input.texty_legacy, [lang=de-DE] .texty_legacy, [lang=en-US] #msg_input.texty_legacy, [lang=en-US] .texty_legacy, [lang=es-ES] #msg_input.texty_legacy, [lang=es-ES] .texty_legacy, [lang=fr-FR] #msg_input.texty_legacy, [lang=fr-FR] .texty_legacy { font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; font-size: 12px;}
+[lang=de-DE] #msg_input.texty_legacy, [lang=de-DE] .texty_legacy, [lang=en-US] #msg_input.texty_legacy, [lang=en-US] .texty_legacy, [lang=es-ES] #msg_input.texty_legacy, [lang=es-ES] .texty_legacy, [lang=fr-FR] #msg_input.texty_legacy, [lang=fr-FR] .texty_legacy { font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; font-size: 12px; color: #AA8800; }
 
-[lang] body { font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; }
+[lang] body { font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; color: #AA8800; }
 
 input[type=text], input[type=password], input[type=datetime], input[type=datetime-local], input[type=date], input[type=month], input[type=time], input[type=week], input[type=number], input[type=email], input[type='url'], input[type=tel], input[type=color], input[type=search] { font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; background: #222; color: #AA8800; }
 
