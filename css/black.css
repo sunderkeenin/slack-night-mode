@@ -1533,6 +1533,8 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket { color: #bf360c; }
 
 .sssh-link { color: #AA8800; }
 
+.c-timestamp__label { color: #AA8800; }
+
 .c-message--dense .c-timestamp__label { color: #AA8800; }
 
 .c-message--dense .c-message__content_header .c-custom_status { border-color: #363636; }
