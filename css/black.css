@@ -78,7 +78,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #AA8800; }
 
 .p-channel_sidebar__channel--im .c-presence--away { color: #AA8800; }
 
-.p-channel_sidebar__channel--selected, .p-channel_sidebar__link--selected { background: rgba(103, 45, 130, .5)  !important; }
+.p-channel_sidebar__channel--selected, .p-channel_sidebar__link--selected { background: rgba(110, 69, 124, 0.5)  !important; }
 
 .p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected:hover { background: rgba(110, 69, 124, 0.5) !important; }
 
@@ -98,7 +98,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #AA8800; }
 
 .channels_list_holder h2 { color: #AA8800 !important; }
 
-.channels_list_holder h2.hoverable:not(.jquery_hover):hover { color: #AA8800; opacity: 0.8; }
+.channels_list_holder h2.hoverable:not(.jquery_hover):hover { color: rgba(110, 69, 124, 0.5); }
 
 .channels_list_holder ul { color: #AA8800 !important; }
 
