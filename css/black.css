@@ -378,7 +378,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #special_formatting_text { color: #AA8800; }
 
-#message_edit_container .inline_message_input_container, #message_edit_container .inline_message_input_container.with_file_upload, #threads_msgs .inline_message_input_container, #threads_msgs .inline_message_input_container.with_file_upload, #reply_container.upload_in_threads .inline_message_input_container, #reply_container.upload_in_threads .inline_message_input_container.with_file_upload { background: #545454; border-color: #363636; color: #AA8800; }
+#message_edit_container .inline_message_input_container, #message_edit_container .inline_message_input_container.with_file_upload, #threads_msgs .inline_message_input_container, #threads_msgs .inline_message_input_container.with_file_upload, #reply_container.upload_in_threads .inline_message_input_container, #reply_container.upload_in_threads .inline_message_input_container.with_file_upload { background: #222222; border: 4px solid #363636; color: #AA8800; }
 
 .inline_message_input_container .ql-container { border-color: #545454; }
 
@@ -830,7 +830,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #col_messages { box-shadow: inset 1px 0 0 0 #222; }
 
-.c-mrkdwn__broadcast--mention, .c-mrkdwn__broadcast--mention:hover, .c-mrkdwn__highlight, .c-mrkdwn__mention, .c-mrkdwn__mention:hover, .c-mrkdwn__subteam--mention, .c-mrkdwn__subteam--mention:hover, .c-mrkdwn__mention:hover, .c-mrkdwn__user_group--mention, .c-mrkdwn__user_group--mention:hover, .mention_yellow_bg { background: #363636; border: 1px solid #545454; color: #AA8800; }
+.c-mrkdwn__broadcast--mention, .c-mrkdwn__broadcast--mention:hover, .c-mrkdwn__highlight, .c-mrkdwn__mention, .c-mrkdwn__mention:hover, .c-mrkdwn__subteam--mention, .c-mrkdwn__subteam--mention:hover, .c-mrkdwn__mention:hover, .c-mrkdwn__user_group--mention, .c-mrkdwn__user_group--mention:hover, .mention_yellow_bg { background: #363636; border: 2px solid #545454; color: #AA8800; }
 
 .c-message:hover .c-message__broadcast_preamble_outer, .c-message:hover .c-message__broadcast_preamble { color: #DE7B18; }
 
@@ -1026,7 +1026,7 @@ ts-message .meta.msg_inline_img_toggler .msg_inline_media_toggler, ts-message .m
 
 ts-message .pinned_item_message_header { color: #AA8800; }
 
-ts-message .mention { background: #828282 !important; color: #AA8800 !important; }
+ts-message .mention { background: #363636 !important; color: #AA8800 !important; border: 2px solid #545454}
 
 ts-message .internal_member_link { background: #222 !important; border: 0; color: #AA8800 !important; }
 
@@ -1599,7 +1599,7 @@ ts-thread .thread_header .thread_action_btns button { color: #AA8800; }
 
 ts-thread .new_reply_indicator .blue_dot { color: #bf360c; }
 
-#convo_tab .thread_participants, ts-thread .thread_participants { color: #AA8800; }
+#convo_tab .thread_participants .thread_channel_link, #convo_tab .thread_participants .thread_channel_link:hover, ts-thread .thread_participants .thread_channel_link, ts-thread .thread_participants .thread_channel_link:hover { color: #AA8800; }
 
 #convo_loading_indicator { background-image: none; }
 
@@ -1665,11 +1665,11 @@ ts-thread .new_reply_indicator .blue_dot { color: #bf360c; }
 
 #flex_contents .comment_form textarea, #flex_contents .edit_comment_form textarea { color: #e0e0e0; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; }
 
-#flex_contents .heading { background: #151515; border-bottom-color: #363636; color: #AA8800; }
+#flex_contents .heading { background: #222; border-bottom-color: #363636; color: #AA8800; }
 
 #flex_contents .heading a { color: #AA8800; }
 
-#flex_contents .heading a:hover { color: #c7c7c7; }
+#flex_contents .heading a:hover { color: #AA8800; }
 
 #flex_contents .heading a.close_flexpane { color: #AA8800; }
 
@@ -1679,7 +1679,7 @@ ts-thread .new_reply_indicator .blue_dot { color: #bf360c; }
 
 #flex_contents .heading .menu_icon { color: #AA8800; }
 
-#flex_contents .heading .menu_icon:hover { color: #c7c7c7; }
+#flex_contents .heading .menu_icon:hover { color: #AA8800 }
 
 #flex_contents .heading_text { color: #AA8800; }
 
@@ -2027,7 +2027,7 @@ html.no_touch a.filetype_button_web:hover .file_title { color: #AA8800; }
 
 a.internal_member_link { background: #363636; color: #AA8800; }
 
-a.c-member_slug, .c-member_slug--link, .c-mrkdwn__subteam--link { background: #363636; border: 1px solid #545454; color: #AA8800; }
+a.c-member_slug, .c-member_slug--link, .c-mrkdwn__subteam--link { background: #363636; border: 2px solid #545454; color: #AA8800; }
 
 a.c-member_slug.active, a.c-member_slug:hover, .c-member_slug--link.active, .c-member_slug--link:hover, .c-mrkdwn__subteam--link.active, .c-mrkdwn__subteam--link:hover { background: #424242; color: #AA8800; }
 
