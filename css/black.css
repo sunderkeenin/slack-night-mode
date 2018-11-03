@@ -411,6 +411,22 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .ql-container.texty_single_line_input.focus, .ql-container.texty_single_line_input:hover { border-color: #363636; box-shadow: 0 0 7px rgba(0, 0, 0, 0.15); }
 
+.p-custom_status_input__emoji_picker { border-right: 1px solid #363636; }
+
+
+
+.c-dialog__body { background #222; }
+
+.c-dialog__title { color: #AA8800; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace }
+
+.c-dialog__header { background: #222; border-bottom-left-radius: 0; border-bottom-right-radius: 0; border-top-left-radius: 0; border-top-right-radius: 0; }
+
+.c-dialog__footer { background: #222; border-bottom-left-radius: 0; border-bottom-right-radius: 0; border-top-left-radius: 0; border-top-right-radius: 0; }
+
+.c-dialog__cancel:first-child, .c-dialog__go:first-child { background: #222; color: #AA8800; border: 2px solid #363636; }
+
+.p-custom_status_input__dialog .p-custom_status_input__new_badge { background: #222; border-radius: 0; color: #AA8800; padding: 2px; border: 2px solid #363636; }
+
 .c-input_select { background: #222; border-color: #363636; color: #AA8800; }
 
 .p-file_list__file_type_select .c-input_select__selected_value--placeholder { color: #AA8800; }
@@ -829,17 +845,19 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .p-search_filter__datepicker_trigger:hover { color: #AA8800; }
 
-.c-search_modal .popover > div, .c-search_modal .c-search__input_box, .c-search_modal:not(.c-search_modal--primarysearch) .popover > div, .c-search_modal:not(.c-search_modal--primarysearch) .c-search__input_box { background: #363636; border-color: #363636; color: #AA8800; }
+.c-search_modal .popover > div, .c-search_modal .c-search__input_box, .c-search_modal:not(.c-search_modal--primarysearch) .popover > div, .c-search_modal:not(.c-search_modal--primarysearch) .c-search__input_box { background: #222; border-color: #363636; color: #AA8800; }
 
-.c-search_autocomplete footer { background: #363636; border-color: #363636; color: #AA8800; }
+.c-search_autocomplete header { background: #222; border-color: #363636; color: #AA8800; }
+
+.c-search_autocomplete footer { background: #222; border-color: #363636; color: #AA8800; }
 
 .c-search_autocomplete__suggestion_item { color: #AA8800; }
 
-.c-search_autocomplete__suggestion_item--selected { background-color: #424242; }
+.c-search_autocomplete__suggestion_item--selected { background-color: #222; }
 
 .c-search_autocomplete__suggestion_item .token { background-color: #222222; color: #AA8800; }
 
-.c-search__input_and_close { border-bottom-color: #000; }
+.c-search__input_and_close { border-bottom-color: #363636; }
 
 .c-search__input_box__clear, .c-search__input_box__icon, .c-search__section_header, .c-search__input_and_close__close { color: #AA8800; }
 
