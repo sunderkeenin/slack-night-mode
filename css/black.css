@@ -1163,23 +1163,25 @@ ts-mention { background: rgba(130, 130, 130, 0.1) !important; color: #e6e6e6 !im
 
 .c-message__reply_bar:hover, .c-message__reply_bar--focus { background-color: #222; border-color: #000; }
 
-.c-message__reply_bar:hover .c-message__reply_bar_arrow, .c-message__reply_bar--focus .c-message__reply_bar_arrow { color: #949494; }
+.c-message__reply_bar:hover .c-message__reply_bar_arrow, .c-message__reply_bar--focus .c-message__reply_bar_arrow { color: #222222; }
 
-.c-message__reply_bar:hover .c-message__reply_bar_view_thread, .c-message__reply_bar--focus .c-message__reply_bar_view_thread { background-color: #545454; }
+.c-message__reply_bar:hover .c-message__reply_bar_view_thread, .c-message__reply_bar--focus .c-message__reply_bar_view_thread { background-color: #222222; }
 
-.c-message__reply_bar_description { color: #949494; }
+.c-message__reply_bar_description { color: #AA8800; }
 
-.c-message__file_meta { color: #949494; }
+.c-message__reply_count { color: #AA8800}
+
+.c-message__file_meta { color: #AA8800; }
 
 .c-message__image_container { background: rgba(0, 0, 0, 0.1); }
 
 .c-message__image_wrapper:after { border-color: transparent; }
 
-.attachment_group.has_container { background: #222; border: 1px solid #363636; }
+.attachment_group.has_container { background: #222; border: 1px solid #222222; }
 
-.attachment_group.has_container .inline_attachment::after { background-color: #363636; }
+.attachment_group.has_container .inline_attachment::after { background-color: #222222; }
 
-.attachment_group.has_container.has_link:hover { border-bottom-color: #363636; border-left-color: #363636; border-right-color: #363636; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15); }
+.attachment_group.has_container.has_link:hover { border-bottom-color: #222222; border-left-color: #363636; border-right-color: #363636; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15); }
 
 .attachment_group .media_caret { color: #949494; }
 
