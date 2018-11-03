@@ -171,7 +171,7 @@ select:active, select:focus, textarea:active, textarea:focus { border-color: #36
 
 input:disabled, input:disabled:active, select:disabled, textarea:disabled { border-color: #424242 !important; }
 
-.no_touch input:hover, .no_touch select:hover, .no_touch textarea:hover { border-color: #363636; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace;}
+.no_touch input:hover, .no_touch select:hover, .no_touch textarea:hover { background: #222; border-color: #363636; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace;}
 
 .no_touch label.select:hover select { border-color: #363636; }
 
@@ -413,9 +413,21 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .p-custom_status_input__emoji_picker { border-right: 1px solid #363636; }
 
-.c-label { color: #AA8800; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; }
+.c-label { background: #222; color: #AA8800; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; }
 
-.c-dialog__body { background: #222; color #AA8800; }
+.c-input_select__selected_value { background: #222; }
+
+.c-input_select_options_list__option { background: #222 }
+
+.c-input_select_options_list__option--active { box-shadow: inset 0 0 0 20px rgba(196, 196, 196, .5); }
+
+input.c-input_text, input[type=text].c-input_text, input[type=password].c-input_text { background: #222; }
+
+.supports_custom_scrollbar .texty_legacy:not(.texty_single_line_input) .ql-editor { background: #222; color: #AA8800;}
+
+.c-input_select__chevron { background: #222; color #AA8800; }
+.c-input_select[disabled] { background: #222; color #AA8800; }
+.c-dialog__body { background: #222; }
 .c-dialog__body--slack_scrollbar_with_padding { background: #222; }
 
 .c-dialog__title { color: #AA8800; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; }
@@ -424,7 +436,11 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .c-dialog__footer { background: #222; border-bottom-left-radius: 0; border-bottom-right-radius: 0; border-top-left-radius: 0; border-top-right-radius: 0; }
 
+
+.c-dialog__cancel { background: #222; color: #AA8800; border: 2px solid #363636; }
 .c-dialog__cancel:first-child, .c-dialog__go:first-child { background: #222; color: #AA8800; border: 2px solid #363636; }
+
+.p-create_gdoc_dialog__modal .p-share_dialog__section { background: #222; }
 
 .p-custom_status_input__dialog .p-custom_status_input__new_badge { background: #222; border-radius: 0; color: #AA8800; padding: 2px; border: 2px solid #363636; }
 
@@ -2509,7 +2525,7 @@ a.c-member_slug--mention, a.c-member_slug--mention:hover, { background-color: #9
 
 .modal-footer { background: padding-box #222; border-top: 1px solid transparent; box-shadow: none; }
 
-.modal-header { background: padding-box #000; border-bottom: 1px solid #363636; color: #AA8800; }
+.modal-header { background: padding-box #222; border-bottom: 1px solid #363636; color: #AA8800; }
 
 .modal-backdrop { background-color: #222; }
 
