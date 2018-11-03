@@ -146,7 +146,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #AA8800; }
 
 .infinite_spinner_bg, .infinite_spinner_blue { stroke: #AA8800; }
 
-body.loading #team_menu, body.loading #quick_switcher_btn, body.loading #team_menu_overlay, body.loading #col_channels_overlay, body.loading #col_channels { background-color: #363636; }
+body.loading #team_menu, body.loading #quick_switcher_btn, body.loading #team_menu_overlay, body.loading #col_channels_overlay, body.loading #col_channels { background-color: #222222; }
 
 .p-degraded_list__loading { background-color: #222; color: #AA8800; }
 
@@ -324,9 +324,9 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #message_edit_form.focus #primary_file_button:not(:hover) { border-color: #363636; }
 
-#message_edit_form.offline #message-input, #message_edit_form.offline #primary_file_button { background-color: #363636 !important; }
+#message_edit_form.offline #message-input, #message_edit_form.offline #primary_file_button { background-color: #222 !important; }
 
-#message_edit_form.offline #primary_file_button { border-color: #424242; color: #AA8800; }
+#message_edit_form.offline #primary_file_button { border-color: #424242; color: #AA8800; background: #222 }
 
 #msg_form.focus #msg_input, #msg_form.focus #primary_file_button:not(:hover):not(.active) { border-color: #363636; }
 
@@ -674,9 +674,9 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .tab_complete_ui .not_in_channel { color: #AA8800; }
 
-#team_menu { background: #363636; border-bottom: 2px solid #363636; color: #AA8800; }
+#team_menu { background: #222; color: #AA8800; }
 
-#team_menu.active, #team_menu:hover { background: #363636 !important; border-bottom-color: #363636 !important; }
+#team_menu.active, #team_menu:hover { background: #333 !important; border-bottom-color: #333 !important; }
 
 #team_menu.active i, #team_menu:hover i { color: #AA8800; }
 
@@ -708,7 +708,8 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .channel_header .blue_on_hover:hover { color: #AA8800; }
 
-#client_body:not(.onboarding)::before { background: #222; border-bottom: 1px solid #363636; box-shadow: inset 1px 0 0 0 #222; }
+#client_body:not(.onboarding):not(.feature_global_nav_layout):before{ background: #222 }
+
 
 .messages_header { color: #AA8800; }
 
