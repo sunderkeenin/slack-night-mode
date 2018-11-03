@@ -785,7 +785,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #edit_topic_trigger { color: #AA8800; }
 
-.c-menu_item__header, .c-tooltip__tip { font-size: 12px; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace, color: #AA8800; }
+.c-menu_item__header, .c-tooltip__tip { font-size: 12px; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; color: #AA8800; }
 
 .c-message_list__day_divider__label { color: #AA8800; }
 
