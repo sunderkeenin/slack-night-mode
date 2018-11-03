@@ -415,7 +415,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .c-label { color: #AA8800; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; }
 
-.c-dialog__body { background: #222; color #AA8800 }
+.c-dialog__body { background: #222; color #AA8800; }
 .c-dialog__body--slack_scrollbar_with_padding { background: #222; }
 
 .c-dialog__title { color: #AA8800; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; }
