@@ -1,8 +1,8 @@
-Manage Manage[lang=de-DE] #msg_input.texty_legacy, [lang=de-DE] .texty_legacy, [lang=en-US] #msg_input.texty_legacy, [lang=en-US] .texty_legacy, [lang=es-ES] #msg_input.texty_legacy, [lang=es-ES] .texty_legacy, [lang=fr-FR] #msg_input.texty_legacy, [lang=fr-FR] .texty_legacy { font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; font-size: 12px; color: #00FFFF; }
+Manage Manage[lang=de-DE] #msg_input.texty_legacy, [lang=de-DE] .texty_legacy, [lang=en-US] #msg_input.texty_legacy, [lang=en-US] .texty_legacy, [lang=es-ES] #msg_input.texty_legacy, [lang=es-ES] .texty_legacy, [lang=fr-FR] #msg_input.texty_legacy, [lang=fr-FR] .texty_legacy { font-family: "Consolas", "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro",  monospace; font-size: 12px; color: #00FFFF; }
 
-[lang] body { font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; color: #00FFFF; }
+[lang] body { font-family: "Consolas", "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro",  monospace; color: #00FFFF; }
 
-input[type=text], input[type=password], input[type=datetime], input[type=datetime-local], input[type=date], input[type=month], input[type=time], input[type=week], input[type=number], input[type=email], input[type='url'], input[type=tel], input[type=color], input[type=search] { font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; background: #222; color: #00FFFF; }
+input[type=text], input[type=password], input[type=datetime], input[type=datetime-local], input[type=date], input[type=month], input[type=time], input[type=week], input[type=number], input[type=email], input[type='url'], input[type=tel], input[type=color], input[type=search] { font-family: "Consolas", "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro",  monospace; background: #222; color: #00FFFF; }
 
 body { background: #222; color: #00FFFF; }
 
@@ -165,13 +165,13 @@ input[type=radio]:focus, input[type=checkbox]:focus { outline: #00FFFF dotted th
 
 select { background: #363636; }
 
-select, textarea { border: 1px solid #000; color: #00FFFF; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; }
+select, textarea { border: 1px solid #000; color: #00FFFF; font-family: "Consolas", "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro",  monospace; }
 
 select:active, select:focus, textarea:active, textarea:focus { border-color: #363636; box-shadow: 0 0 7px rgba(130, 130, 130, 0.15); }
 
 input:disabled, input:disabled:active, select:disabled, textarea:disabled { border-color: #424242 !important; }
 
-.no_touch input:hover, .no_touch select:hover, .no_touch textarea:hover { background: #222; border-color: #363636; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace;}
+.no_touch input:hover, .no_touch select:hover, .no_touch textarea:hover { background: #222; border-color: #363636; font-family: "Consolas", "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro",  monospace;}
 
 .no_touch label.select:hover select { border-color: #363636; }
 
@@ -183,13 +183,13 @@ legend { border-bottom: 1px solid #828282; }
 
 legend small { color: #00FFFF; }
 
-.uneditable-input, .uneditable-textarea { background-color: #424242; border: 1px solid #000; color: #00FFFF; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; }
+.uneditable-input, .uneditable-textarea { background-color: #424242; border: 1px solid #000; color: #00FFFF; font-family: "Consolas", "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro",  monospace; }
 
-.uneditable-input:focus, .uneditable-textarea:focus { border-color: rgba(130, 130, 130, 0.8); box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(130, 130, 130, 0.6); font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; }
+.uneditable-input:focus, .uneditable-textarea:focus { border-color: rgba(130, 130, 130, 0.8); box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(130, 130, 130, 0.6); font-family: "Consolas", "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro",  monospace; }
 
 textarea { background-color: #363636; border: 1px solid #000; color: #00FFFF; }
 
-textarea:focus { border-color: rgba(130, 130, 130, 0.8); box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(130, 130, 130, 0.6); font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; }
+textarea:focus { border-color: rgba(130, 130, 130, 0.8); box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(130, 130, 130, 0.6); font-family: "Consolas", "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro",  monospace; }
 
 ::-webkit-input-placeholder { color: #00FFFF !important; -webkit-filter: none; filter: none; opacity: 0.5; }
 
@@ -207,7 +207,7 @@ input::placeholder, textarea::placeholder { color: #00FFFF !important; filter: n
 
 input[data-placeholder]:empty::before, textarea[data-placeholder]:empty::before { color: #00FFFF !important; }
 
-input[disabled], input[readonly], textarea[disabled], textarea[readonly] { background-color: #363636 !important; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace;}
+input[disabled], input[readonly], textarea[disabled], textarea[readonly] { background-color: #363636 !important; font-family: "Consolas", "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro",  monospace;}
 
 .form-actions { background-color: #424242; border-top: 1px solid #363636; }
 
@@ -245,7 +245,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .btn.btn_attachment.btn_primary:hover, .btn.btn_attachment.btn_primary:focus { border-color: #9c9c9c; }
 
-.btn_basic:focus, .btn_basic:hover { color: #00FFFF; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace;}
+.btn_basic:focus, .btn_basic:hover { color: #00FFFF; font-family: "Consolas", "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro",  monospace;}
 
 .btn_outline { background: #222; color: #00FFFF !important; }
 
@@ -343,7 +343,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #msg_form .msg_mentions_button:hover { color: #00FFFF; }
 
-#msg_input { background: #363636; border-color: #363636; color: #00FFFF; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace;}
+#msg_input { background: #363636; border-color: #363636; color: #00FFFF; font-family: "Consolas", "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro",  monospace;}
 
 #msg_input::-webkit-input-placeholder { color: #00FFFF !important; -webkit-filter: none; filter: none; opacity: 0.5; }
 
@@ -413,7 +413,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .p-custom_status_input__emoji_picker { border-right: 1px solid #363636; }
 
-.c-label { background: #222; color: #00FFFF; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; }
+.c-label { background: #222; color: #00FFFF; font-family: "Consolas", "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro",  monospace; }
 
 .c-input_select__selected_value { background: #222; }
 
@@ -430,7 +430,7 @@ input.c-input_text, input[type=text].c-input_text, input[type=password].c-input_
 .c-dialog__body { background: #222; }
 .c-dialog__body--slack_scrollbar_with_padding { background: #222; }
 
-.c-dialog__title { color: #00FFFF; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; }
+.c-dialog__title { color: #00FFFF; font-family: "Consolas", "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro",  monospace; }
 
 .c-dialog__header { background: #222; border-bottom-left-radius: 0; border-bottom-right-radius: 0; border-top-left-radius: 0; border-top-right-radius: 0; }
 
@@ -484,7 +484,7 @@ input.c-input_text, input[type=text].c-input_text, input[type=password].c-input_
 
 .menu ul li a.delete_link { color: #bf360c; }
 
-.menu ul li a:not(.inline_menu_link) { color: #00FFFF; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; font-size: 12px}
+.menu ul li a:not(.inline_menu_link) { color: #00FFFF; font-family: "Consolas", "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro",  monospace; font-size: 12px}
 
 .menu ul li.highlighted a { background: #222; border-bottom-color: #000; color: #00FFFF; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15); }
 
@@ -510,7 +510,7 @@ input.c-input_text, input[type=text].c-input_text, input[type=password].c-input_
 
 .menu input { background: #363636; border: 1px solid #363636; }
 
-.menu textarea { background: #363636; border: 1px solid #363636; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace;}
+.menu textarea { background: #363636; border: 1px solid #363636; font-family: "Consolas", "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro",  monospace;}
 
 .menu #menu_footer .menu_footer { background: #222; border-top: 1px solid #363636; }
 
@@ -662,9 +662,9 @@ input.c-input_text, input[type=text].c-input_text, input[type=password].c-input_
 
 #client-ui #team_list_container #team_filter .member_filter { background-color: #222; border-left: 1px solid #000; }
 
-#client-ui #team_list_container .searchable_member_list_search { background: #222; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; border: 1px solid #363636;}
+#client-ui #team_list_container .searchable_member_list_search { background: #222; font-family: "Consolas", "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro",  monospace; border: 1px solid #363636;}
 
-#client-ui #team_list_container #team_filter .member_filter, #client-ui #user_groups_container #user_group_filter .member_filter { background: #222; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; }
+#client-ui #team_list_container #team_filter .member_filter, #client-ui #user_groups_container #user_group_filter .member_filter { background: #222; font-family: "Consolas", "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro",  monospace; }
 
 #client-ui #file_member_filter { border-color: #363636; }
 
@@ -802,7 +802,7 @@ input.c-input_text, input[type=text].c-input_text, input[type=password].c-input_
 
 #edit_topic_trigger { color: #00FFFF; }
 
-.c-menu_item__header, .c-tooltip__tip { font-size: 12px; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; color: #00FFFF; }
+.c-menu_item__header, .c-tooltip__tip { font-size: 12px; font-family: "Consolas", "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro",  monospace; color: #00FFFF; }
 
 .c-message_list__day_divider__label { color: #00FFFF; }
 
@@ -844,7 +844,7 @@ input.c-input_text, input[type=text].c-input_text, input[type=password].c-input_
 
 #team_filter .icon_search, #team_filter .ts_icon_spinner, #user_group_filter .icon_search, #user_group_filter .ts_icon_spinner, .searchable_member_list_search_bar .icon_search, .searchable_member_list_search_bar .ts_icon_spinner { color: #00FFFF; }
 
-.searchable_member_list_filter .faux_input { color: #00FFFF; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; font-size: 12px;}
+.searchable_member_list_filter .faux_input { color: #00FFFF; font-family: "Consolas", "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro",  monospace; font-size: 12px;}
 
 #team_filter a.icon_close, #user_group_filter a.icon_close, .searchable_member_list_search_bar a.icon_close { color: #00FFFF; }
 
@@ -1575,23 +1575,23 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket { color: #bf360c; }
 
 .c-message--dense .c-message__content_header .c-custom_status { border-color: #363636; }
 
-.dense_theme ts-message { color: #00FFFF; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; font-size: 12px;}
+.dense_theme ts-message { color: #00FFFF; font-family: "Consolas", "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro",  monospace; font-size: 12px;}
 
 .dense_theme ts-message.first .message_gutter .timestamp, .dense_theme ts-message.selected .message_gutter .timestamp { color: #00FFFF; }
 
 .dense_theme ts-message .message_content .message_current_status { border-color: #363636; }
 
-.dense_theme #message_edit_form textarea { background: #222; color: #00FFFF; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; font-size: 12px;}
+.dense_theme #message_edit_form textarea { background: #222; color: #00FFFF; font-family: "Consolas", "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro",  monospace; font-size: 12px;}
 
 .c-message--light .c-message__sender .c-message__sender_link { color: #00FFFF; }
 
-.light_theme ts-message { color: #00FFFF; background; #222; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; font-size: 12px;}
+.light_theme ts-message { color: #00FFFF; background; #222; font-family: "Consolas", "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro",  monospace; font-size: 12px;}
 
 .light_theme ts-message .message_content .message_sender, .light_theme ts-message .message_content .meta .message_sender:hover { color: #00FFFF !important; }
 
 .light_theme ts-message .comment::before { color: #00FFFF; }
 
-.light_theme #message_edit_form textarea { color: #00FFFF; background: #222; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; font-size: 12px; }
+.light_theme #message_edit_form textarea { color: #00FFFF; background: #222; font-family: "Consolas", "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro",  monospace; font-size: 12px; }
 
 .channel_overlay { border-color: #363636; color: #00FFFF; }
 
@@ -1647,7 +1647,7 @@ ts-thread ts-message.new_reply { background: #222; }
 
 ts-thread ts-message.new_reply:hover { background: #363636; }
 
-ts-thread .thread_header .thread_channel_name a { color: #00FFFF; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; }
+ts-thread .thread_header .thread_channel_name a { color: #00FFFF; font-family: "Consolas", "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro",  monospace; }
 
 ts-thread .thread_header .thread_action_btns button { color: #00FFFF; }
 
@@ -1717,9 +1717,9 @@ ts-thread .new_reply_indicator .blue_dot { color: #bf360c; }
 
 #flex_contents { background: #222; }
 
-#flex_contents .comment_form textarea, #flex_contents .edit_comment_form textarea { color: #e0e0e0; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; }
+#flex_contents .comment_form textarea, #flex_contents .edit_comment_form textarea { color: #e0e0e0; font-family: "Consolas", "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro",  monospace; }
 
-#flex_contents .heading { background: #222; border-bottom-color: #363636; color: #00FFFF; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace;}
+#flex_contents .heading { background: #222; border-bottom-color: #363636; color: #00FFFF; font-family: "Consolas", "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro",  monospace;}
 
 #flex_contents .heading a { color: #00FFFF; }
 
@@ -1771,7 +1771,7 @@ ts-thread .new_reply_indicator .blue_dot { color: #bf360c; }
 
 .message_location_label { color: #00FFFF; }
 
-.p-flexpane_header { background: #222; border: 2px solid #363636; color: #00FFFF; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace;}
+.p-flexpane_header { background: #222; border: 2px solid #363636; color: #00FFFF; font-family: "Consolas", "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro",  monospace;}
 
 #client_body:not(.onboarding):not(.feature_global_nav_layout):before { background: #363636; }
 
@@ -2311,7 +2311,7 @@ span.match { background: rgba(191, 54, 12, 0.25); }
 
 #member_preview_scroller .member_data_table .current_status_cell .current_status_container:not(.active) .current_status_cover.without_status_set .current_status_placeholder { color: rgba(230, 230, 230, 0.35) !important; }
 
-#team_tab #member_preview_scroller { background-color: #222; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; color: #00FFFF;}
+#team_tab #member_preview_scroller { background-color: #222; font-family: "Consolas", "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro",  monospace; color: #00FFFF;}
 
 #team_tab #member_preview_scroller .feature_custom_status_expiry.member_details .member_action_bar .c-button:not(:first-child) { margin-left: 12px; background: #222; color: #00FFFF; border: 2px solid #363636}
 
@@ -3846,7 +3846,7 @@ a.c-tabs__tab--plastic.c-tabs__tab--active, a.c-tabs__tab--plastic:active, a.c-t
 
 .p-detail_permissions { background: #363636; border-color: #363636; }
 
-.p-downloads_list__empty { font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; font-size: 12px;}
+.p-downloads_list__empty { font-family: "Consolas", "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro",  monospace; font-size: 12px;}
 
 table.gray_header_border tr:first-child th:not(:only-of-type) { border-bottom-color: #363636; }
 
