@@ -83,9 +83,9 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #00FFFF; }
 
 .p-channel_sidebar__channel--selected, .p-channel_sidebar__link--selected { background: rgb(110, 69, 124)  !important; }
 
-.p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected:hover { background: rgb(110, 69, 124) !important; }
+.p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected:hover { background: #2edb50 !important; }
 
-.p-channel_sidebar__channel--selected::before, .p-channel_sidebar__channel--selected:hover::before, .p-channel_sidebar__channel--selected::after, .p-channel_sidebar__channel--selected:hover::after { color: #00FFFF; background: rgba(110, 69, 124, 0.2); }
+.p-channel_sidebar__channel--selected::before, .p-channel_sidebar__channel--selected:hover::before, .p-channel_sidebar__channel--selected::after, .p-channel_sidebar__channel--selected:hover::after { color: #00FFFF; background: rgba(46, 219, 80, 0.2); }
 
 .p-channel_sidebar__link--selected::before, .p-channel_sidebar__link--selected::after { color: #00FFFF; }
 
