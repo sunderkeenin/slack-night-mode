@@ -70,7 +70,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #AA8800; }
 
 .p-channel_sidebar { background-color: #222; color: #AA8800;}
 .p-channel_sidebar__channel, .p-channel_sidebar__channel:link, .p-channel_sidebar__channel:visited, .p-channel_sidebar__channel:hover, .p-channel_sidebar__link, .p-channel_sidebar__link:link, .p-channel_sidebar__link:visited, .p-channel_sidebar__link:hover { rgb(110, 69, 124) !important; }
-.p-channel_insights__drawer_title{margin-bottom:10px;color:#AA8800;font-weight:900;font-size:13px;}
+.p-channel_insights__drawer_title{margin-bottom:10px;color:#AA8800;font-weight:900;font-size: 12px;}
 .p-channel_sidebar__channel--selected, .p-channel_sidebar__channel--selected:link, .p-channel_sidebar__channel--selected:visited, .p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected, .p-channel_sidebar__link--selected:link, .p-channel_sidebar__link--selected:visited, .p-channel_sidebar__link--selected:hover { color: #AA8800; background: rgb(110,69,124); }
 
 .p-channel_sidebar__channel:hover, .p-channel_sidebar__link:hover { background: rgb(110, 69, 124) !important; }
@@ -484,7 +484,7 @@ input.c-input_text, input[type=text].c-input_text, input[type=password].c-input_
 
 .menu ul li a.delete_link { color: #bf360c; }
 
-.menu ul li a:not(.inline_menu_link) { color: #AA8800; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; font-size: 12px}
+.menu ul li a:not(.inline_menu_link) { color: #AA8800; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; font-size: 12px;}
 
 .menu ul li.highlighted a { background: #222; border-bottom-color: #000; color: #AA8800; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15); }
 
@@ -2789,7 +2789,7 @@ a.c-member_slug--mention, a.c-member_slug--mention:hover, { background-color: #9
 
 #fs_modal.prefs_modal #prefs_sidebar #prefs_themes_customize .colpick { background: #222; border: 1px solid #363636; }
 
-#fs_modal.prefs_modal #prefs_sidebar #prefs_sidebar_theme::after { background: #bf360c; border-radius: 3px; content: "Light sidebar themes (e.g. Hoth) will break this Stylish theme."; display: block; font-size: 14px; line-height: 18px; margin: 12px 0 6px; padding: 6px; width: 100%; }
+#fs_modal.prefs_modal #prefs_sidebar #prefs_sidebar_theme::after { background: #bf360c; border-radius: 3px; content: "Light sidebar themes (e.g. Hoth) will break this Stylish theme."; display: block; font-size: 12px; line-height: 18px; margin: 12px 0 6px; padding: 6px; width: 100%; }
 
 #fs_modal.prefs_modal legend { color: #AA8800; }
 
