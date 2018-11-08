@@ -484,7 +484,7 @@ input.c-input_text, input[type=text].c-input_text, input[type=password].c-input_
 
 .menu ul li a.delete_link { color: #bf360c; }
 
-.menu ul li a:not(.inline_menu_link) { color: #AA8800; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; font-size: 14px}
+.menu ul li a:not(.inline_menu_link) { color: #AA8800; font-family: "D2Coding", "Droid Sans Mono Slashed for Powerline", "Terminus", "Anonymous Pro", "Consolas", monospace; font-size: 14px;}
 
 .menu ul li.highlighted a { background: #222; border-bottom-color: #000; color: #AA8800; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15); }
 
