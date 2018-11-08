@@ -2461,7 +2461,7 @@ ts-thread .collapse_inline_thread_container:hover, ts-thread .view_all_replies_c
 
 .p-emoji_picker__group_tab { color: #00FFFF; }
 
-.p-emoji_picker__group_tab:hover { background: #6e457c; color: #00FFFF; }
+.p-emoji_picker__group_tab:hover { background: rgb(46, 219, 80); color: #00FFFF; }
 
 .p-emoji_picker__group_tab--active { background: #363636; border-bottom-color: #363636; color: #00FFFF; }
 
